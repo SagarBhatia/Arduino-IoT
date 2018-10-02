@@ -16,7 +16,9 @@
     while($row = mysqli_fetch_array($result))
     {      
         
-        echo $row['Value'];
+	echo nl2br("\r\n".$row['co2']);
+	echo nl2br("\r\n".$row['co']);
+		echo nl2br("\r\n".$row['nh4']);
 
     }
         
