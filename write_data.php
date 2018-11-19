@@ -12,8 +12,10 @@
     $dbselect = mysqli_select_db($dbconnect,"test");
 
     // Prepare the SQL statement
-	$request=$_GET['value'];
-    $sql = "INSERT INTO test.sensor (value) VALUES ('$request')";    
+	$request1=$_GET['co2'];
+        $request2=$_GET['co'];
+        $request3=$_GET['nh4'];
+    $sql = "INSERT INTO test.sensor (co2,co,nh4) VALUES ('$request1','$request2','$request3')";    
 
     // Execute SQL statement
 
