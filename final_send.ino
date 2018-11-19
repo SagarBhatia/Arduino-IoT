@@ -158,7 +158,6 @@ float MQCalibration(int mq_pin)
 
 }
 
-
 float MQRead(int mq_pin)
 {
   int i;
