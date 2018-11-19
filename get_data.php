@@ -22,6 +22,6 @@
 
     }
         
-    // Close the connection   
+    // Close the connection
     mysqli_close($con);
 ?>
