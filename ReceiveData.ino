@@ -108,7 +108,6 @@ void loop()
     }
     
     http.end();
-//lastmessage avto nathi
   }
   
 
