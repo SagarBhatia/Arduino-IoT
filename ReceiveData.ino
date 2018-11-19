@@ -79,7 +79,6 @@ void loop()
     //if(WiFi.status()==WL_CONNECTED)
 
 
-
     HTTPClient http;
 //    String url1 = "http://192.168.43.29/write_data.php?value=" + String(sensor);
 //    Serial.println(url1);
